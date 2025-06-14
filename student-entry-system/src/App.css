@@ -1,0 +1,223 @@
+/* Image 1 */
+.logo1 {
+  position: absolute; 
+  top: 16px; 
+  left: 14px; 
+  width: 402px; 
+  height: 52px; 
+  border-radius: 6px; /* border-m */
+  z-index: 10;
+}
+
+.text {
+  position: absolute; 
+  top: 156px; 
+  left: 87px; 
+  width: 568px; 
+  height: 112px; 
+  font-family: Archivo; /* Heading */
+  font-size: 40px; 
+  line-height: 56px; 
+  font-weight: 600; 
+  color: #FFFFFFFF; /* white */
+  
+}
+/* Image 3 */
+.main-background {
+  position: absolute; 
+  top: -2px; 
+  left: -6px; 
+  width: 1920px; 
+  height: 1080px; 
+  border-radius: 0px; 
+}
+.college-title {
+  position: absolute; 
+  top: 156px; 
+  left: 87px; 
+  width: 568px; 
+  height: 112px; 
+  font-family: Archivo; /* Heading */
+  font-size: 40px; 
+  line-height: 56px; 
+  font-weight: 600; 
+  color: #FFFFFFFF; /* white */
+}
+/* Container 2 */
+.login-container {
+  position: relative; 
+  top: 94px; 
+  left: 798px; 
+  width: 496px; 
+  height: 649px; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 16px; /* border-xl */
+  box-shadow: 0px 4px 9px #171a1f1C, 0px 0px 2px #171a1f1F; /* shadow-m */
+}
+/* Image 1 */
+.login-logo  {
+  position: absolute; 
+  top: 47px; 
+  left: 56px; 
+  width: 402px; 
+  height: 52px; 
+  border-radius: 6px; /* border-m */
+}
+
+.login-title {
+  position: absolute; 
+  top: 159px; 
+  left: 50px; 
+  width: 157px; 
+  height: 58px; 
+  font-family: Archivo; /* Heading */
+  font-size: 32px; 
+  line-height: 48px; 
+  font-weight: 600; 
+  color: #171A1FFF; /* neutral-900 */
+}
+/* Textbox 3 */
+.name-textbox {
+  position: absolute; 
+  top: 206px; 
+  left: 56px; 
+  opacity: 1; 
+}
+.name-textbox input {
+  width: 384px; 
+  height: 44px; 
+  padding-left: 16px; 
+  padding-right: 16px; 
+  font-family: Inter; 
+  font-size: 16px; 
+  line-height: 26px; 
+  font-weight: 400; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 22px; 
+  border-width: 0px; 
+  outline: none; 
+}
+.name-textbox .label {
+  font-family: Inter; 
+  font-size: 16px; 
+  line-height: 26px; 
+  font-weight: 700; 
+}
+/* hover */
+.name-textbox input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.name-textbox input:focus {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.name-textbox input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+
+
+/* Password Textbox */
+.password-textbox {
+  position: absolute; 
+  top: 309px; 
+  left: 56px; 
+  opacity: 1; 
+}
+.password-textbox input {
+  width: 384px; 
+  height: 44px; 
+  padding-left: 16px; 
+  padding-right: 16px; 
+  font-family: Inter; 
+  font-size: 16px; 
+  line-height: 26px; 
+  font-weight: 400; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 22px; 
+  border-width: 0px; 
+  outline: none; 
+}
+.password-textbox svg {
+  position: absolute; 
+  top: 16px; 
+  right: 16px; 
+  width: 20px; 
+  height: 20px; 
+  fill: #171A1FFF; /* neutral-900 */
+}
+.password-textbox .label {
+  font-family: Inter; 
+  font-size: 16px; 
+  line-height: 26px; 
+  font-weight: 700; 
+}
+/* hover */
+.password-textbox input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.password-textbox input:focus {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.password-textbox input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.password-textbox :disabled + .icon, 
+.password-textbox :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Sign In Button */
+.sign-in-btn {
+  position: absolute; 
+  top: 429px; 
+  left: 56px; 
+  width: 384px; 
+  height: 52px; 
+  padding: 0 20px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Inter; 
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 400; 
+  color: #FFFFFFFF; /* white */
+  background: #636AE8FF; /* primary-500 */
+  opacity: 1; 
+  border: none; 
+  border-radius: 26px; 
+  box-shadow: 0px 8px 17px #636AE826, 0px 0px 2px #636AE81F; /* shadow-l */
+}
+/* Hover */
+.sign-in-btn:hover {
+  color: #FFFFFFFF; /* white */
+  background: #4850E4FF; /* primary-550 */
+}
+/* Pressed */
+.sign-in-btn:hover:active {
+  color: #FFFFFFFF; /* white */
+  background: #2C35E0FF; /* primary-600 */
+}
+/* Disabled */
+.sign-in-btn:disabled {
+  opacity: 0.4; 
+}
+.forgot-password {
+  position: absolute; 
+  top: 571px; 
+  left: 175px; 
+  font-family: Inter; /* Body */
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  color: #323842FF; /* neutral-700 */
+}

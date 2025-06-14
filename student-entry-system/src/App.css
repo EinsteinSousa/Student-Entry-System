@@ -1,3 +1,7 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 /* Image 1 */
 .logo1 {
   position: absolute; 
